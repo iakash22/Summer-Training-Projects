@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="payment.css">
+    <title>PAYTMENT FORM</title>
+</head>
+<style>
+    </style>
+<body>
+    <div class="container">
+    <form action="abc.php">
+        <h1>Payment form</h1>
+        <h2>User Information</h2>
+        <p>required fields *</p>
+        <p> Name: *<input type="text" name="name" placeholder="Abc Name" required></p>
+        <fieldset>
+            <legend>Gender</legend>
+        <p>
+            male *<input type="radio" name="gender" id="male"required> female <input type="radio" name="gender" id="female" required>
+        </p>
+    </fieldset>
+    <p>Address : <textarea name="address" id="address" cols="50" rows="8" placeholder="enter your address"></textarea></p>
+    <p>Email : *<input type="email" name="email" id="email" placeholder="abc@gmail.com" required></p>
+    <p>Pincode : *<input type="number" name="pincode" id="pincode" placeholder="123456" required></p>
+    <h2>Paytment Information</h2>
+    <p>Card Type :*
+        <select name="card type" id="card type" required>
+            <option value="">--Select a card--</option>
+            <option value="Visa">Visa</option>
+            <option value="rupay">rupay</option>
+            <option value="master card"> Master card</option>
+        </select>
+        <img class="box" src="image/visa-logo.png" alt="">
+        <img class="box" src="image/rupay-card.png" alt="">
+        
+        <img class="box" src="image/Mastercard-PNG (1).png" alt="">
+    </p>
+    <p>*
+        Card Number <input type="number" name="card number" id="card number" placeholder="1234-1234-1234-1234" required>
+    </p>
+    <p>*
+        Expiration Date : <input type="date" name="exp_date" id="exp_date" required>
+    </p>
+    <p>CVV*<input type="password" name="cvv" id="cvv" placeholder="123" required> </p>
+    <input class="btn" type="submit" value="Pay Now">
+    </form>
+</div>
+</body>
+</html>

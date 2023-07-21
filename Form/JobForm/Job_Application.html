@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="job.css">
+    <title>Job Application</title>
+</head>
+<style>
+    
+</style>
+<body>
+    <div class="container">
+    <h2 class="heading">Job Application</h2>
+    <p><b>please complete the form below to apply for a position with us</b></p>
+    <form action="">
+        <p>Full name :* <input class="name" type="text" name="first name" id="first name" placeholder="First name" required>  
+                        <input class="name" type="text" name="middle name" id="middle name" placeholder="Middle name">  
+                        <input class="name" type="text" name="name" id="name" required placeholder="Last name"></p>
+        <p>
+            <fieldset>
+            <legend>Current Address</legend>
+            <input class="address1" type="address" name="address" id="address" placeholder="Street Address">
+            <input class="address1"  type="address" name="address" id="address" placeholder="Street Address Line 2">
+            <input class="address2" type="city" name="city name" id="city" placeholder="City">  
+            <input class="address3" type="state" name="state" id="state" placeholder="State/Province">
+            <input class="address3" type="number" placeholder="Pincode">
+            <br>
+                 Country *:
+                <select class="country" name="country" id="country"required>
+                <option value="">--select country--</option>
+                <option value="Australia">Australia</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Japan">Japan</option>
+                <option value="Germany">Germany</option>
+                <option value="Switzerland">Switzerland</option>
+                <option value="United State">U.S.A.</option>
+                <option value="New Zealand">New Zealand</option>
+                <option value="India">India</option>
+                <option value="China">China</option>
+                <option value="Nepal">Nepal</option>
+                <option value="London">London</option>
+                <option value="Srilanka">Srilanka</option>
+                <option value="Bangladesh">bangladesh</option>
+                <option value="Italy">Italy</option>
+                <option value="Hong Kong">Hong Kong</option>
+                <option value="Russia">Russia</option>
+                <option value="France">France</option>
+            </select>
+        </p>
+    </fieldset>
+        <br>
+        <p>
+            Email : *<input type="email" name="email" id="email" placeholder="abc@gmail.com" required>
+        </p>
+        <p>
+            Area code :* <select class="code" name="code" id="code"required>
+                <option value="">-select code-</option>
+                <option value="india">+91</option>
+                <option value="Mexico">+52</option>
+                <option value="China">+86</option>
+                <option value="Bangladesh">+880</option>
+                <option value="Australia">+61</option>
+                <option value="switzerland">+41</option>
+                <option value="Sri lanka">+94</option>
+                <option value="london">+44</option>
+                <option value="New Zealand">+64</option>
+                <option value="Nepal">+977</option>
+                <option value="Russia">+7</option>
+                <option value="France">+33</option>
+                <option value="Germany">+49</option>
+                <option value="Hong Kong">+852</option>
+                <option value="italy">+39</option>
+                <option value="U.S.A.">+1</option>
+            </select>
+            Phone Number:*<input class="number1" type="number" name="number" placeholder="123456789123" id="number"required>
+        </p>
+        <p>
+            Applying for position
+        <select class="position" name="position" id="position" required>
+            <option value="#">Select Position</option>
+            <option value="#">Manager</option>
+            <option value="#">Asistance Manager</option>
+            <option value="#">SuperVisor</option>
+            <option value="#">Other Position</option>
+        </select>
+        </p>
+        <p>Date of birth:*<input type="date" name="date" id="date"required> 
+        </p>
+        <p>Upload Resume :* <input class="box" type="file" name="resume" id="resume"required></p>
+        <input class="btn" type="submit" value="Submit">
+    </form>
+</div>
+</body>
+</html>

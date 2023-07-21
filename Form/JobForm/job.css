@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+}
+.container{
+    background-color: #f2f2f2;
+    padding: 5px 15px 20px 20px;
+    border: 3px solid lightgrey;
+    border-radius: 10px;
+}
+.heading{
+    text-align: center;
+}
+input[type="file"]{
+    border: 0px solid #ccc;
+    background-color: #ffff;
+}
+.btn{
+    border: none;
+    padding: 12px 20px;
+    background-color: rgba(0, 0, 0, 0.626);
+    color: whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 25%;
+}
+.btn:hover{
+    background-color: black;
+    cursor: pointer;
+    }
+    .name{
+        color: aqua;
+        background-color: #fff;
+        width: 30%;
+        border: 3px solid #ccc;
+        padding: 12px;
+        margin: 10px;
+        border-radius: 5px;
+    }
+    fieldset{
+        background-color: #fff;
+        border: 3px solid #ccc;
+    }
+    .address1,
+    .address3{
+        width: 45%;
+        border: 3px solid #ccc;
+        background-color: #fff;
+        padding: 12px;
+        margin: 10px;
+        border-radius: 5px;
+    }
+    .code{
+        width: 21%;
+        padding: 12px;
+        margin: 10px;
+        border: 3px solid #ccc;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+    .number1{
+        width: 20%;
+        padding: 12px;
+        margin: 10px;
+        border: 3px solid #ccc;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+    input[type="city"]
+    {
+        width: 91.5%;
+        border: 3px solid #ccc;
+        padding: 12px;
+        margin: 10px;
+        border-radius: 5px;
+    }
+    input[type="date"]{
+        width: 84%;
+        border: 3px solid #ccc;
+        padding: 12px;
+        margin: 10px;
+        border-radius: 5px;
+    }
+    .country{
+        width: 86%;
+        border: 3px solid #ccc;
+        padding: 12px;
+        margin: 10px;
+        border-radius: 5px;
+    }
+    .position{
+        width: 81%;
+        border: 3px solid #ccc;
+        padding: 12px;
+        margin: 10px;
+        border-radius: 5px;
+    }
+    input[type="email"]{
+        width: 87%;
+        border: 3px solid #ccc;
+        padding: 12px;
+        margin: 10px;
+        border-radius: 5px;
+    }

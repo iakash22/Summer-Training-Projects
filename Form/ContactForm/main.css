@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 8px;
+}
+.container, .thanks-container{
+    width: 450px;
+    max-width: 550px;
+    padding: 5px 15px 20px 20px;
+    border: 3px solid lightgrey;
+    border-top: 0;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #f2f2f2;            
+}
+.thanks-container{
+    display: none;
+    width: 100%;
+    border-top: 3px solid lightgray;
+    border-radius: 10px;
+}
+.heading{
+    width: 450px;
+    max-width: 550px;
+    background-color: hsl(133, 59%, 63%);
+    padding: 5px 60px;
+    border: 3px solid lightgrey;
+    border-bottom: 0px;
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+h1{
+    padding: 10px;
+}
+fieldset{
+    border: none;
+}
+input[type="email"],
+input[type="text"],
+textarea
+{
+    padding: 15px;
+    margin: 10px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+.btn{
+    padding: 10px 20px;
+    border:none;
+    background-color: hsl(133, 59%, 63%);
+    margin: 10px;
+    margin-top: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background-color: hsl(133, 36%, 48%);
+}
+
+@media screen and (max-width : 500px){
+    .container{
+        width: 300px;
+    }
+    .heading{
+        width: 300px;
+    }
+}
+@media screen and (max-width : 350px){
+    .container{
+        width: 250px;
+    }
+    .heading{
+        width: 250px;
+        padding: 2px 10px;
+    }
+    .heading h1{
+        font-size: 30px;
+    }
+    .heading p{
+        font-size: 13px;
+    }
+    form p{
+        font-size: 15px;
+    }
+}
