@@ -25,7 +25,7 @@ const EditFormTodo = ({editTodo,task}) => {
                     py-2 px-4 mt-4 mb-8 w-[300px] placeholder:text-[#ffffff4d] text-[#fff]
                     font-medium'/>
                 <button type='submit' className='bg-[#8758ff] text-[#fff] border-none p-[0.55rem]
-                cursor-pointer font-medium'>UPDATE</button>
+                cursor-pointer font-medium max-sm:mb-4'>UPDATE</button>
             </form>
         </div>
     )

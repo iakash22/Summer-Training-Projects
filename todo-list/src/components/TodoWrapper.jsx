@@ -50,7 +50,10 @@ const TodoWrapper = () => {
 
     return (
         <div className=' bg-[#1A1A40] mt-20 p-8 rounded-md'>
-            <h1 className='text-[#fff] mb-2 text-[1.75rem] font-bold'>Lets Create Your Todo List</h1>
+            <div className='flex items-center justify-evenly gap-x-2 '>
+                <img src="https://img.icons8.com/arcade/64/overview-pages-3.png" className='max-sm:hidden' alt="" />
+                <h1 className='text-[#fff] mb-2 text-[1.75rem] font-bold max-sm:text-[1.5rem]'>Lets Create Your Todo List</h1>
+            </div>
             <TodoForm addTodo={addTodo}/>
             {
                 tasks.map((task,index) => {

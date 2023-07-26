@@ -27,7 +27,8 @@ const TodoForm = ({addTodo}) => {
                     font-medium'
                     />
                     <button type='submit'
-                    className='bg-[#8758ff] text-[#fff] border-none p-[0.55rem] cursor-pointer font-medium'>Add Task</button>
+                    className='bg-[#8758ff] text-[#fff] border-none p-[0.55rem] cursor-pointer 
+                    font-medium max-sm:mb-4'>Add Task</button>
             </form>
         </div>
     )
