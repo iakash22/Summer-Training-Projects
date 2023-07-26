@@ -1,8 +1,7 @@
-# Birthday Wish Card
-<div>
-    <img src="./assets/card1.png" />
-    <img src="./assets/card2.png" />
-</div>
+# Birthday Wish Card 🎂
+
+<img src="./assets/card1.png" width="50%"/> 
+<img src="./assets/card2.png" width="50%"/>
 
 <hr>
 <br>
